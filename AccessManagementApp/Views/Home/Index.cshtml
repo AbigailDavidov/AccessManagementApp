@@ -1,0 +1,28 @@
+﻿@model User
+@{
+    ViewData["Title"] = "Login";
+}
+
+<div class="form-wrap">
+    <section>
+        <h1>Login</h1>
+        <div>
+            <input type="text" name="user_name" id="user_name" placeholder="Enter user name" />
+        </div>
+        <div>
+            <input type="text" name="email" id="email" placeholder="Enter email" />
+        </div>
+        <div>
+            <input type="text" name="url" id="password" placeholder="Enter password" />
+        </div>
+
+        <div>
+            <button id="submit">Log in</button>
+        </div>
+
+        <div class="resp-area inactive" id="resp-area">
+
+        </div>
+
+    </section>
+</div>
